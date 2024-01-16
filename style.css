@@ -1,0 +1,620 @@
+* {
+    font-family: 'IBM Plex Sans Arabic', sans-serif;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #333;
+    color: white;
+    
+}
+
+.logo img {
+    width: 150px;
+    height: auto;
+    cursor: pointer;
+    margin-right: 150px;
+}
+
+.nav-links {
+    display: flex;
+    justify-content: space-around;
+    width: 40%;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: white;
+    padding: 8px 16px;
+    border-radius: 5px;
+}
+
+.nav-links a:hover {
+    background-color: #555;
+}
+
+.social-links a {
+    text-decoration: none;
+    color: white;
+    margin-left: 10px;
+}
+
+.menu-icon i {
+    width: 30px;
+    height: auto;
+    cursor: pointer;
+    display: none;
+}
+
+.one {
+    color: rgb(70, 117, 238) !important;
+    font-size: 30px;
+    margin: 0 6px;
+}
+
+.two {
+    color: rgb(255, 255, 255) !important;
+    font-size: 30px;
+    margin: 0 6px;
+}
+
+.three {
+    color: rgb(238, 165, 70) !important;
+    font-size: 30px;
+    margin: 0 6px;
+}
+
+
+
+
+.home-section {
+    background-color: #f0f0f0;
+    padding: 80px 0;
+    display: flex;
+}
+
+.content {
+    text-align: right;
+    color: #333;
+    z-index: 2;
+    width: 50%;
+    margin-top: 100px;
+    margin-right: 70px;
+}
+
+.content h1 {
+    font-size: 4.5em;
+    margin-bottom: 20px;
+}
+
+.content h1 b {
+    font-size: 35px;
+    color: rgb(67, 67, 214);
+}
+
+.content p {
+    font-size: 1.2em;
+    margin-bottom: 30px;
+}
+
+.btn-travel {
+    display: inline-block;
+    padding: 10px 20px;
+    text-decoration: none;
+    background-color: #333;
+    color: white;
+    border-radius: 5px;
+    font-size: 1.2em;
+    transition: all 0.5s;
+}
+
+.btn-travel:hover {
+    background-color: rgba(44, 41, 41, 0.825);
+}
+
+.image {
+    width: 50%;
+    z-index: 1;
+}
+
+.image img {
+    width: 100%;
+    height: auto;
+    background-position: center;
+}
+
+/* Add the wave effect at the bottom */
+
+
+
+/* vision section */
+
+
+.cards-section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 50px 0;
+    background-color: #fff;
+    width: 100vw;
+}
+
+.card {
+    width: calc(33.333% - 20px); /* Adjust the width based on your design */
+    margin: 40px 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    text-align: right !important;
+    padding-bottom: 12px;
+    border: 1px solid rgba(188, 181, 181, 0.726);
+}
+
+.card img {
+    width: 100%;
+    max-height: 300px;
+}
+
+.card h2 {
+   margin-right: 24px;
+}
+
+.card p {
+    margin-right: 24px;
+    margin-top: 9px;
+    margin-bottom: 4px;
+ }
+
+.star-icons {
+    margin-right: 24px;
+    margin-top: 9px;
+    margin-bottom: 9px; 
+}
+
+.star-icons span i {
+    color: hwb(51 0% 0%);
+}
+
+.star {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    background: url('star-icon.png') no-repeat center center/contain; /* Replace with your star icon */
+}
+
+.btn-view {
+    display: block;
+    width: 27%;
+    padding: 10px;
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    margin-left: 68%;
+    margin-top: 10px;
+    font-weight: 500;
+}
+
+
+.tits {
+    display: flex;
+    justify-content: center;
+}
+
+
+
+
+
+.section-with-title {
+    text-align: center;
+    padding: 50px 0;
+    background-color: #ffffff;
+}
+
+.title-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.square {
+    width: 20px;
+    height: 20px;
+    background-color: #333;
+    margin: 0 10px;
+}
+
+.title-container h2 {
+    font-size: 3em;
+    margin: 0;
+}
+
+
+/* product section */
+
+.product-sec {
+   display: flex;
+   justify-content: space-between;
+   width: 80%;
+   margin: auto;
+   height: 80vh;
+   flex-wrap: wrap;
+}
+
+.product-sec div {
+    width: 31%;
+    box-shadow:
+    2.8px 2.8px 2.2px rgba(0, 0, 0, 0.006),
+    6.7px 6.7px 5.3px rgba(0, 0, 0, 0.009),
+    12.5px 12.5px 10px rgba(0, 0, 0, 0.011),
+    22.3px 22.3px 17.9px rgba(0, 0, 0, 0.013),
+    41.8px 41.8px 33.4px rgba(0, 0, 0, 0.015),
+    100px 100px 80px rgba(0, 0, 0, 0.02);
+    margin: 9px;
+    border: 2px solid rgba(214, 210, 210, 0.752);
+    text-align: center;
+    /* padding-top: 25px; */
+    border-radius: 8px;
+}
+
+
+.product-sec div h3 {
+    font-size: 33px;
+    margin-bottom: 35px;
+    background-color: #333333;
+    padding: 30px 0;
+    color: white;
+}
+
+
+.product-sec div p {
+    margin: 18px 0;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.product-sec div ul {
+    list-style: none;
+}
+
+.product-sec div ul li {
+    margin: 15px 0;
+    padding: 0 30px;
+    display: block;
+}
+
+.product-sec div ul li i {
+    color: rgb(219, 15, 137);
+}
+
+.product-sec div .fir {
+    margin-top: 118px;
+}
+.product-sec div .sec {
+    margin-top: 80px;
+}
+
+.button {
+    align-items: center;
+    appearance: none;
+    background-color: #EEF2FF;
+    border-radius: 8px;
+    border-width: 2px;
+    border-color: #536DFE;
+    box-shadow: rgba(83, 109, 254, 0.2) 0 2px 4px, rgba(83, 109, 254, 0.15) 0 7px 13px -3px, #D6D6E7 0 -3px 0 inset;
+    box-sizing: border-box;
+    color: #536DFE;
+    cursor: pointer;
+    display: inline-flex;
+    font-family: "JetBrains Mono", monospace;
+    height: 56px;
+    justify-content: center;
+    line-height: 1;
+    list-style: none;
+    overflow: hidden;
+    padding-left: 24px;
+    padding-right: 24px;
+    position: relative;
+    text-align: center;
+    text-decoration: none;
+    transition: box-shadow 0.15s, transform 0.15s;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    white-space: nowrap;
+    will-change: box-shadow, transform;
+    font-size: 20px;
+  }
+  
+  .button:focus {
+    outline: none;
+    box-shadow: #D6D6E7 0 0 0 1.5px inset, rgba(83, 109, 254, 0.4) 0 2px 4px, rgba(83, 109, 254, 0.3) 0 7px 13px -3px, #D6D6E7 0 -3px 0 inset;
+  }
+  
+  .button:hover {
+    box-shadow: rgba(83, 109, 254, 0.3) 0 4px 8px, rgba(83, 109, 254, 0.2) 0 7px 13px -3px, #D6D6E7 0 -3px 0 inset;
+    transform: translateY(-2px);
+  }
+  
+  .button:active {
+    box-shadow: #D6D6E7 0 3px 7px inset;
+    transform: translateY(2px);
+  }
+
+.rate {
+    border: none !important;
+    text-align: center !important;
+    margin: 16px auto !important;
+}
+
+.rate i {
+    color: rgb(0, 136, 255);
+    font-size: 22px;
+}
+
+/* Media query for smaller screens */
+@media screen and (max-width: 768px) {
+    .title-container {
+        flex-direction: column;
+    }
+
+    .square {
+        margin: 10px 0;
+    }
+}
+
+
+
+@media screen and (max-width: 768px) {
+
+    .social-links {
+
+        display: none;
+    }
+
+    .logo img {
+        margin: 0;
+    }
+    .nav-links {
+        display: none;
+        flex-direction: column;
+        width: 92%;
+        position: absolute;
+        top: 108px;
+        background-color: #333333;
+        z-index: 1000;
+        
+    }
+
+    .nav-links.show {
+        display: flex;
+    }
+
+    .nav-links a {
+        width: 100%;
+        text-align: center;
+    }
+
+    .menu-icon i {
+        display: block;
+        font-size: 27px;
+    }
+
+    .social-links a i {
+        font-size: 26px;
+    } 
+
+    .home-section {
+        width: 100%;
+        background-color: #f0f0f0;
+        display: flex;
+        flex-direction: column;
+    } 
+
+   .content , .image {
+    width: 100% !important;
+    text-align: center;
+
+   }
+
+   .content {
+    order: 1;
+    padding-bottom: 30px;
+    margin-top: 0;
+   }
+
+   .image {
+    order : 2;
+   }
+
+   .card {
+    width: calc(50% - 20px);
+}
+
+
+
+    
+}
+
+@media screen and (max-width: 540px) {
+
+    .card {
+        width: 100%;
+    }
+   
+    .product-sec div {
+        width: 100%;
+        padding-bottom: 15px;
+    }
+
+    .third {
+        order: 3;
+    }
+    .second {
+        order : 2;
+    }
+
+    .first {
+        order : 1;
+    }
+
+    .about-tit {
+        display: none !important;
+    }
+}
+
+
+
+/* Styling for the About Us section */
+.about-us-section {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 80px 0;
+    background-color: #fff;
+}
+
+.about-us-content {
+    max-width: 600px;
+    text-align: right;
+}
+
+.about-us-content h2 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.about-us-content p {
+    font-size: 1.2em;
+    line-height: 1.6;
+    color: #555;
+    
+}
+
+.about-us-content p:nth-of-type(2) {
+   margin: 12px 0;
+    
+}
+.about-us-image img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+/* Media query for smaller screens */
+@media screen and (max-width: 768px) {
+    .about-us-section {
+        flex-direction: column;
+        margin-top: 1200px;
+    }
+
+    .about-us-content {
+        text-align: center;
+        margin-bottom: 30px;
+        order: 1;
+    }
+
+    .about-us-image {
+        order : 2 ;
+    }
+}
+
+.about-tit {
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    margin-top: 60px;
+    font-size: 35px;
+}
+
+
+/* Styling for the Contact Us section */
+.contact-us-section {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 80px 0;
+    background-color: #f0f0f0;
+}
+
+.contact-form,
+.contact-info {
+    max-width: 400px;
+    text-align: right;
+}
+
+.contact-form h2,
+.contact-info h3 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.contact-form p,
+.contact-info p {
+    font-size: 1.2em;
+    line-height: 1.6;
+    color: #555;
+}
+
+.contact-form form {
+    display: flex;
+    flex-direction: column;
+}
+
+.contact-form label {
+    font-size: 1.2em;
+    margin-top: 10px;
+}
+
+.contact-form input,
+.contact-form textarea,
+.contact-form button {
+    margin-top: 10px;
+    padding: 10px;
+    font-size: 1em;
+}
+
+.contact-form button {
+    background-color: #333;
+    color: #fff;
+    cursor: pointer;
+}
+
+.contact-info {
+    text-align: center;
+}
+
+/* Media query for smaller screens */
+@media screen and (max-width: 768px) {
+    .contact-us-section {
+        flex-direction: column;
+    }
+
+    .contact-form,
+    .contact-info {
+        max-width: 100%;
+        margin-bottom: 30px;
+        text-align: center;
+    }
+
+    .contact-form {
+        order: 1;
+    }
+
+    .contact-info {
+        order:2;
+    }
+}
+
+

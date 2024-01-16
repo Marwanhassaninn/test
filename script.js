@@ -7,7 +7,7 @@ function toggleMenu() {
     var navLinks = document.getElementById("navLinks");
     navLinks.classList.toggle("show");
 }
-
+// second function
 var links = document.querySelectorAll(".nav-links a");
 links.forEach(function(link) {
     link.addEventListener("click", function() {
